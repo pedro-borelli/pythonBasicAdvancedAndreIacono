@@ -1,0 +1,45 @@
+variáveis:
+type, isinstance, string, int, float, complex, list, tuple, range, dict e none.
+
+operadores:
+soma(+), subtração(-), multiplicação(*), divisão(/), resto(%), exponenciação(**) e negação(-).
+
+operadores de comparação:
+igual(==), diferente de(!=), maior que(>), menor que(<), maior ou igual a(>=), menor ou igual a(<=).
+
+operadores lógicos: and, or, not
+
+condicionais: if, elif, else, pass
+
+separadores:
+print, return(armazena numa variavel), split, join, format, f-strings, \n: separar linha,
+:.2f --> arredonda casas decimais, \t: faz com que o texto avance até a próxima "coluna de tabulação"
+
+lacos de repeticao: while, for, break, continue
+
+modulos:
+math, random, statistics, decimal, fractions, datetime, time, calendar,
+os, shutil, pathlib, json, csv, requests, http, socket, argparse, logging, unittest,
+hashlib, secrets, numpy, pandas, mathplotlib, sys, re, itertools
+
+listas: []
+sum, min, max, in, sorted, len, reversed, append, pop, insert, zip, array e type codes
+
+tuplas () and arrays: type-codes
+
+sets {}: add, remove, intersection, union, difference, symetric difference
+
+dicionarios: estruturas de dados, criar, acessar, atualizar, deletar, listar: keys, values, items
+
+manipulacao de strings:
+upper, lower, capitalize, title, strip, lstrip, rstrip, ljust, rjust, center, replace, find, count, isalpha, isdigit
+
+funcoes:
+non-default, default, function, module, package, library, **(adiciona varios parametros), dicionarios,
+lambda, map, filter, list comprehension, generation express
+
+erros: try, except, finally, else
+
+classes: objetos, construtores, __init__ , self
+
+

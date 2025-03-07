@@ -1,0 +1,29 @@
+O pip é o gerenciador de pacotes do Python. Ele é usado para instalar, atualizar e gerenciar pacotes e bibliotecas
+disponíveis no Python Package Index (PyPI), que é o repositório oficial de pacotes do Python.
+
+# instalar pacote:
+pip install nome_do_pacote
+
+# atualizar pacote:
+pip install --upgrade nome_do_pacote
+
+# desinstalar pacote:
+pip uninstall nome_do_pacote
+
+# listar pacotes instalados:
+pip list
+
+# exibir informações sobre um pacote:
+pip show nome_do_pacote
+
+# verificar por atualizações de um pacote:
+pip list --outdated
+
+Instalar pacotes a partir de um arquivo requirements.txt
+Um arquivo requirements.txt contém uma lista de dependências do projeto:
+pip install -r requirements.txt
+
+Criar um arquivo requirements.txt, Útil para compartilhar as dependências de um projeto:
+pip freeze > requirements.txt
+
+

@@ -1,0 +1,7 @@
+comentar um trecho: CTRL + /
+abrir terminal: ALT + F12
+identar o código: CTRL + ALT + L
+desidentar o código: shift + TAB
+duplicar trecho de código: CTRL + D
+run na aplicação: shift + f10
+

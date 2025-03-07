@@ -1,0 +1,178 @@
+Sumário - Conceitos Python:
+
+1. Variáveis
+type: Retorna o tipo da variável.
+isinstance: Verifica se um objeto pertence a uma classe ou tipo específico.
+Tipos principais:
+string: Texto (ex: 'Python').
+int: Números inteiros (ex: 10).
+float: Números com ponto flutuante (ex: 10.5).
+complex: Números complexos (ex: 2+3j).
+list: Coleção mutável (ex: [1, 2, 3]).
+tuple: Coleção imutável (ex: (1, 2, 3)).
+range: Sequência numérica (ex: range(5)).
+dict: Dicionários, chave-valor (ex: {'a': 1}).
+None: Valor nulo (ex: None).
+
+
+2. Operadores
+Aritméticos
+Soma (+)
+Subtração (-)
+Multiplicação (*)
+Divisão (/)
+Resto (%)
+Exponenciação ()**
+Negação (-)
+Comparação
+Igual (==)
+Diferente de (!=)
+Maior que (>)
+Menor que (<)
+Maior ou igual a (>=)
+Menor ou igual a (<=)
+
+Lógicos
+and: E lógico.
+or: OU lógico.
+not: Negação lógica.
+
+
+3. Condicionais
+if: Executa um bloco de código se a condição for verdadeira.
+elif: Condição alternativa.
+else: Bloco executado se as condições anteriores falharem.
+pass: Placeholder para um bloco de código vazio.
+
+
+4. Separadores
+print: Exibe valores.
+return: Retorna valores de uma função e armazena em variáveis.
+split: Divide strings em listas.
+join: Junta elementos de lista em uma string.
+format: Formatação de strings.
+f-strings: Strings interpoladas (ex: f"Valor: {variavel}").
+\n: Separar linha.
+.2f: Arredonda casas decimais.
+\t: Adiciona tabulação (avanço na linha).
+
+
+5. Laços de Repetição
+while: Executa um bloco enquanto a condição for verdadeira.
+for: Itera sobre elementos de uma sequência.
+break: Interrompe o laço.
+continue: Pula a iteração atual e continua.
+
+
+6. Módulos
+math: Realiza operações matemáticas avançadas, como raiz quadrada, seno, cosseno, e funções exponenciais.
+random: Gera números aleatórios, embaralha listas e realiza sorteios.
+statistics: Realiza cálculos estatísticos, como média, mediana e desvio padrão.
+decimal: Trabalha com números decimais de alta precisão, ideal para cálculos financeiros.
+fractions: Manipula números racionais em forma de frações.
+datetime: Manipula datas e horas.
+time: Trabalha com tempo, pausas e medições de execução.
+calendar: Permite a criação e manipulação de calendários.
+os: Interage com o sistema operacional, como manipulação de arquivos e diretórios.
+shutil: Oferece funcionalidades para copiar, mover, remover arquivos e diretórios.
+pathlib: Gerencia caminhos de arquivos e diretórios de maneira mais moderna e orientada a objetos.
+json: Manipula dados no formato JSON (conversão de dados entre Python e JSON).
+csv: Lida com arquivos CSV (valores separados por vírgula).
+requests: Permite enviar requisições HTTP para APIs e páginas da web.
+http: Gerencia funcionalidades relacionadas ao protocolo HTTP.
+socket: Facilita a criação de conexões de rede usando sockets.
+argparse: Lida com argumentos passados via linha de comando.
+logging: Gera logs de eventos e erros em aplicações.
+unittest: Fornece ferramentas para testes unitários em código Python.
+hashlib: Cria e manipula hash (MD5, SHA) para segurança e verificação.
+secrets: Gera números seguros para criptografia e senhas.
+numpy: Biblioteca poderosa para cálculos matemáticos e manipulação de arrays.
+pandas: Manipula e analisa grandes conjuntos de dados, usando tabelas (DataFrames).
+matplotlib: Gera gráficos e visualizações de dados.
+sys: Interage com o sistema Python, como manipulação de argumentos e saídas.
+re: Trabalha com expressões regulares para manipulação avançada de strings.
+itertools: Fornece funções iterativas otimizadas, como combinações e permutações.
+
+
+7. Listas ([])
+sum: Soma dos elementos.
+min / max: Mínimo e máximo.
+in: Verifica se um elemento está na lista.
+sorted: Ordena a lista.
+len: Tamanho da lista.
+reversed: Inverte a lista.
+append: Adiciona elemento no final.
+pop: Remove o último elemento.
+insert: Insere elemento na posição especificada.
+zip: Combina listas.
+array: Estrutura otimizada.
+type codes: Identificadores de tipos de array.
+
+
+8. Tuplas e Arrays
+()`: Tuplas são imutáveis.
+Arrays: Usam type-codes para definir tipos de elementos.
+
+
+9. Sets ({})
+add: Adiciona elemento.
+remove: Remove elemento.
+intersection: Interseção entre conjuntos.
+union: União entre conjuntos.
+difference: Diferença entre conjuntos.
+symmetric_difference: Diferença simétrica.
+
+
+10. Dicionários ({})
+Estrutura: Chave-valor.
+Criar: dicionario = {'chave': 'valor'}
+Acessar: dicionario['chave']
+Atualizar: dicionario['chave'] = 'novo_valor'
+Deletar: del dicionario['chave']
+Listar:
+keys: Retorna as chaves.
+values: Retorna os valores.
+items: Retorna os pares chave-valor.
+
+
+11. Manipulação de Strings
+upper: Maiúsculas.
+lower: Minúsculas.
+capitalize: Primeira letra maiúscula.
+title: Primeira letra de cada palavra maiúscula.
+strip: Remove espaços extras.
+lstrip / rstrip: Remove espaços à esquerda/direita.
+ljust / rjust / center: Alinha o texto.
+replace: Substitui partes da string.
+find: Localiza substring.
+count: Conta ocorrências.
+isalpha: Verifica se são apenas letras.
+isdigit: Verifica se são apenas números.
+
+
+12. Funções
+Non-default: Parâmetros obrigatórios.
+Default: Parâmetros com valor padrão.
+Function: Declaração de funções (def).
+Module: Arquivo com funções reutilizáveis.
+Package: Conjunto de módulos.
+Library: Coleção de pacotes/módulos.
+**kwargs: Aceita múltiplos parâmetros.
+Lambda: Funções anônimas.
+map: Aplica função a uma lista.
+filter: Filtra elementos.
+List Comprehension: Criação rápida de listas.
+Generation Expressions: Geradores para otimização.
+
+
+13. Tratamento de Erros
+try: Bloco de código que pode gerar erro.
+except: Captura o erro.
+finally: Executado sempre.
+else: Executado se não houver erro.
+
+
+14. Classes e Objetos
+Objetos: Instâncias de classes.
+Construtores: Inicialização de objetos com __init__.
+self: Referência ao próprio objeto.
